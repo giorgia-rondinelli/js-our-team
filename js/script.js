@@ -1,3 +1,5 @@
+const output= document.getElementById('output')
+
 const team=[
   {
     firstName:'Wayne Barnett',
@@ -36,3 +38,8 @@ const team=[
 
   }
 ]
+
+for(let componente of team){
+  console.log(componente)
+  output.innerHTML+=`nome:${componente.firstName}<br> ruolo:${componente.role}<br> foto:${componente.photo}<br>`
+}
