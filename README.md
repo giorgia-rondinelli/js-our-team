@@ -7,4 +7,5 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 - ogni oggrtto sarà caratterizzato da 3 proprietà: nome, ruolo e foto
 - creo un ciclo for of che mi permette di ottenere le informazioni per ogni componente
 - stampo in pagina le informazioni ottenute con il ciclo 
+- trasformo la stringa foto in una immagine effettiva inserando un tag img nel template literal 
 

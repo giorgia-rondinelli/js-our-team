@@ -41,5 +41,5 @@ const team=[
 
 for(let componente of team){
   console.log(componente)
-  output.innerHTML+=`nome:${componente.firstName}<br> ruolo:${componente.role}<br> foto:${componente.photo}<br>`
+  output.innerHTML+=`nome:${componente.firstName}<br> ruolo:${componente.role}<br> <img src="${componente.photo}" alt=""><br>`
 }
