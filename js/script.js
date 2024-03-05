@@ -41,5 +41,15 @@ const team=[
 
 for(let componente of team){
   console.log(componente)
-  output.innerHTML+=`nome:${componente.firstName}<br> ruolo:${componente.role}<br> <img src="${componente.photo}" alt=""><br>`
+  output.innerHTML+=` <div class="col d-flex  justify-content-center">
+  <div class="card mt-3 " style="width: 18rem;">
+    <img src="${componente.photo}" class="card-img-top" alt="...">
+    <div class="card-body  ">
+      <p class="card-text text-center fw-bold  ">${componente.firstName}</p>
+      <p class="card-text text-center">${componente.role}</p>
+      
+    </div>
+  </div>
+</div>
+`
 }
